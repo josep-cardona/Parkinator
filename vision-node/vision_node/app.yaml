@@ -1,0 +1,10 @@
+name: mqtt_test
+description: ""
+ports: []
+bricks:
+- arduino:telegram_bot:
+    variables:
+      TELEGRAM_BOT_TOKEN: ""
+- arduino:video_object_detection:
+    model: ei-model-991853-1
+icon: 🧑‍🦽‍➡️

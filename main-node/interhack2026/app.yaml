@@ -1,0 +1,11 @@
+name: InterHack2026
+description: ""
+ports: []
+bricks:
+- arduino:telegram_bot:
+    variables:
+      TELEGRAM_BOT_TOKEN: ""
+- arduino:cloud_llm:
+    variables:
+      API_KEY: ""
+icon: 🚗
